@@ -2,7 +2,7 @@
   "name": "preact-timeago",
   "version": "1.0.9",
   "description": "minimal port of timeago-react to preact",
-  "main": "timeago.js",
+  "main": "timeago.build.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/dzhurley/preact-timeago.git"
@@ -31,7 +31,8 @@
     "eslint-plugin-react": "^6.8.0",
     "jsdom": "^9.9.1",
     "jsdom-global": "^2.1.1",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "preact": "^8.2.9"
   },
   "scripts": {
     "build": "npm test && babel timeago.js --out-file timeago.build.js",
